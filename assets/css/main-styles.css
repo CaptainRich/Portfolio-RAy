@@ -121,11 +121,20 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     margin-left: 10px;
 }
 
+
+.Me img {
+    float: left;
+    width: 125px;
+    height: 125px;
+    padding: 20px;
+}
+
 .Me p {
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 20px;
 }
+
 
 .Education ul li {
     margin-left: 20px;
