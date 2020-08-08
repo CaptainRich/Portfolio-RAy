@@ -222,3 +222,71 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     justify-content: center;
     object-fit: cover;
 }
+
+/* Define the 'media query' styles.  */
+/* Media queries should always be last in the style sheet. */
+/* Media query style for smaller desktop screens and smaller than 980. */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;   
+        justify-content: center; 
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+}
+/* Media query style for tablets and smaller than 768. */
+@media screen and (max-width: 768px) {
+    
+    .grid-container {
+        grid-template-columns: 1fr;   /* create 1 column */
+        grid-template-rows: 6fr;
+    }
+
+    .grid-item {
+        grid-column: 1;
+    }
+
+    .grid-item.grid-RunBuddy {
+        grid-row: 1;
+    }
+
+    .grid-item.grid-c2reel {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .grid-item.grid-c2forum {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .grid-item.grid-horisean {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .grid-item.grid-caesarii {
+        grid-column: 1;
+        grid-row: 5
+    }
+
+    .grid-item.grid-item.grid-tank {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+}  /* End of Media query style for tablets and smaller than 768. */
