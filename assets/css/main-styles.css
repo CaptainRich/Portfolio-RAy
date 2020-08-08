@@ -146,6 +146,7 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
 }
 
 
+/* Define the styles that control the grid, for the various projects. */
 .grid-wrapper {
     display: flex;
     width: 80%;
@@ -222,6 +223,7 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     justify-content: center;
     object-fit: cover;
 }
+/* End of styling for grid layout.  */
 
 /* Define the 'media query' styles.  */
 /* Media queries should always be last in the style sheet. */
