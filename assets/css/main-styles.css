@@ -152,6 +152,10 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     grid-auto-flow: dense;
 }
 
+.grid-container h3 {
+    color: var(--primary-color);
+}
+
 .grid-container p::first-line {
     font-weight: bold;
 }
