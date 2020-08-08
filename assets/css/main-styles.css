@@ -18,6 +18,7 @@
 body{
     color: var(--text-color);
     font-family: Helvetica, Arial, sans-serif;
+    background-color: gainsboro;
 }
 
 /* Define the style for the header  */
@@ -116,7 +117,7 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
 
 
 .Projects-Accomplishments {
-    margin-top: 10px ;
+    margin-top: 20px ;
     margin-left: 10px;
 }
 
@@ -125,15 +126,19 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     padding-bottom: 20px;
 }
 
-.Education  {
+.Education ul li {
     margin-left: 20px;
-    padding-bottom: 20px;
+    list-style: none;
+}
+
+.bottom {
+    margin-bottom: 20px;
 }
 
 
 .grid-wrapper {
     display: flex;
-    width: 50%;
+    width: 80%;
     justify-content: center;
     margin-top: 25px;
 }
@@ -141,9 +146,13 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 50%;
+    width: 80%;
     grid-gap: 20px;
     grid-auto-flow: dense;
+}
+
+.grid-container p::first-line {
+    font-weight: bold;
 }
 
 .grid-item {
@@ -200,14 +209,4 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     grid-row: 3 /  span 1;
     justify-content: center;
     object-fit: cover;
-}
-
-.item {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
 }
