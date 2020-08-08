@@ -8,7 +8,6 @@ Richard Ay, July 2020
 * [Contact Information](#contact-information)
 * [Portfolio Screen Shot](#portfolio-screen-shot)
 * [Project Requirements](#project-requirements)
-* [Web Pge Screen Shot](#WebPageScreenShot)
 
 
 ## Projects & Accomplishments
@@ -26,7 +25,7 @@ This section lists the various options to contact me.
 
 ## Portfolio Screen Shots
 
-![Top Half](https://github.com/CaptainRich/Horiseon-Refactored/blob/master/WebPage-Part1.PNG)
+![Top Half](https://github.com/CaptainRich/Portfolio-RAy/blob/master/webpagescreenshot.jpg)
 
 
 ## Project Requirements
@@ -41,7 +40,5 @@ The objectives/requirements of this portfolio project are:
 7) The portfolio page properly resizes for various screen sizes and devices
 8) The portfolio has a layout responsive to the specific viewport
 
-## Web Page Screen Shot
 
-![Screen Shot] (https://github.com/CaptainRich/Portfolio-RAy/blob/webpagescreenshot.jpg)
 
