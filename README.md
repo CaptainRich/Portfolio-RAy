@@ -23,7 +23,7 @@ This section lists my education and professional society memberships.
 ## Contact Information
 This section lists the various options to contact me.
 
-## Portfolio Screen Shots
+## Portfolio Screen Shot
 
 ![Top Half](https://github.com/CaptainRich/Portfolio-RAy/blob/master/webpagescreenshot.jpg)
 
