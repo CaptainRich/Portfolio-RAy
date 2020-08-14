@@ -7,6 +7,7 @@ Richard Ay, July 2020
 * [Education and Affiliates](#education-and-affiliates)
 * [Contact Information](#contact-information)
 * [Portfolio Screen Shot](#portfolio-screen-shot)
+* [Link to Deployed Page](#link-to-deployed-page)
 * [Project Requirements](#project-requirements)
 
 
@@ -26,6 +27,11 @@ This section lists the various options to contact me.
 ## Portfolio Screen Shot
 
 ![Top Half](https://github.com/CaptainRich/Portfolio-RAy/blob/master/webpagescreenshot.jpg)
+
+
+## Link to Deployed Page
+The deployment link to display the updated web page is:
+[GitHub Pages](https://captainrich.github.io/Portfolio-RAy/)
 
 
 ## Project Requirements
