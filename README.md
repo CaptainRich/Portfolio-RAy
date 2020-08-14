@@ -2,22 +2,22 @@
 Richard Ay, July 2020
 
 ## Table of Contents
-* [Projects & Accomplishments](#projects-&-accomplishments)
+* [Projects and Accomplishments](#projects-and-accomplishments)
 * [Who I Am](#who-i-am)
-* [Education & Affiliates](#education-&-affiliates)
+* [Education and Affiliates](#education-and-affiliates)
 * [Contact Information](#contact-information)
 * [Portfolio Screen Shot](#portfolio-screen-shot)
 * [Project Requirements](#project-requirements)
 
 
-## Projects & Accomplishments
+## Projects and Accomplishments
 This is the main section of the portfolio.  This section contains images of 
 completed projects with links to their deployed web pages (if applicable).
 
 ## Who I Am
 This section contains a short biography of my employment history.
 
-## Education & Affiliates
+## Education and Affiliates
 This section lists my education and professional society memberships.
 
 ## Contact Information
