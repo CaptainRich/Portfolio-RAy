@@ -175,7 +175,7 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     border: 2px solid color var(--primary-color);
 }
 
-.grid-item.grid-Stockman {
+.grid-item.grid-Autotracker {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
     object-fit: cover;
@@ -240,6 +240,13 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     justify-content: center;
     object-fit: cover;
 }
+
+.grid-item.grid-Stockman {
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;
+    justify-content: center;
+    object-fit: cover;
+}
 /* End of styling for grid layout.  */
 
 /* Define the 'media query' styles.  */
@@ -279,17 +286,20 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
         grid-column: 1;
     }
 
-    .grid-item.grid-RunBuddy {
-        grid-row: 1;
-    }
+    
+    .grid-item.grid-Autotracker {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        object-fit: cover;
+    }   
 
     .grid-item.grid-c2reel {
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 3;
     }
 
     .grid-item.grid-c2forum {
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 3;
     }
 
@@ -299,12 +309,27 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     }
 
     .grid-item.grid-caesarii {
-        grid-column: 1;
-        grid-row: 5
+        grid-column: 2;
+        grid-row: 4;
     }
 
     .grid-item.grid-item.grid-tank {
         grid-column: 1;
+        grid-row: 5;
+    }
+    
+    .grid-item.grid-RunBuddy {
+        grid-column: 2;
+        grid-row: 5;
+    }
+  
+    .grid-item.grid-weather {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    
+    .grid-item.grid-Stockman {
+        grid-column: 2;
         grid-row: 6;
     }
 
