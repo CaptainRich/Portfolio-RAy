@@ -135,6 +135,12 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     padding-bottom: 20px;
 }
 
+.Me ul  li {
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+
 
 .Education ul li {
     margin-left: 20px;
