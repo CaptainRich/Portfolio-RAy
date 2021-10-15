@@ -164,16 +164,17 @@ section {
 /* Define the styles that control the grid, for the various projects. */
 .grid-wrapper {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    width: 80%;
-    grid-gap: 20px;
+    width: 90%;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
     grid-auto-flow: dense;
 }
 
@@ -186,16 +187,30 @@ section {
 }
 
 .grid-item {
-    padding: 15px 0;
+    padding: 5px 0;
     border: 2px solid color var(--primary-color);
 }
 
-.grid-item.grid-Autotracker {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-    object-fit: cover;
+
+.grid-item.grid-caesarii {
+    grid-column: 1 ;
+    grid-row: 1 ;
+    justify-content: center;
+    /* object-fit: cover; */
 }
 
+.grid-item.grid-c2forum {
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: center;
+    /* object-fit: cover; */
+}
+
+.grid-item.grid-Autotracker {
+    grid-column: 1 ;
+    grid-row: 2 ;
+    /* object-fit: cover; */
+}
 
 #size-2x2 {
     width: 100%;
@@ -206,23 +221,17 @@ section {
 }   
 
 .grid-item.grid-c2reel {
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 1;
+    grid-column: 2;
+    grid-row: 2;
     justify-content: center;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
-.grid-item.grid-c2forum {
-    grid-column: 3 / span 1;
-    grid-row: 2 / span 1;
-    justify-content: center;
-    object-fit: cover;
-}
 
 .grid-item.grid-LivingReal {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    object-fit: cover;
+    grid-column: 1 ;
+    grid-row: 3 ;
+    /* object-fit: cover; */
 }
 /* 
 .grid-item.grid-horisean {
@@ -233,41 +242,33 @@ section {
 } */
 
 
-.grid-item.grid-caesarii {
-    grid-column: 3 / span 1;
-    grid-row: 3 /  span 1;
-    justify-content: center;
-    object-fit: cover;
-}
-
 .grid-item.grid-tank {
-    grid-column: 3 / span 1;
-    grid-row: 4 /  span 1;
+    grid-column: 2;
+    grid-row: 3;
     justify-content: center;
-    object-fit: cover;
-}
-
-
-.grid-item.grid-RunBuddy {
-    grid-column: 1 / span 1;
-    grid-row: 5 /  span 1;
-    justify-content: center;
-    object-fit: cover;
-
+    /* object-fit: cover; */
 }
 
 .grid-item.grid-weather {
-    grid-column: 2 / span 1;
-    grid-row: 5 /  span 1;
+    grid-column: 1;
+    grid-row: 4;
     justify-content: center;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .grid-item.grid-Stockman {
-    grid-column: 3 / span 1;
-    grid-row: 5 / span 1;
+    grid-column: 2;
+    grid-row: 4;
     justify-content: center;
-    object-fit: cover;
+    /* object-fit: cover; */
+}
+
+.grid-item.grid-RunBuddy {
+    grid-column: 1;
+    grid-row: 5 ;
+    justify-content: center;
+    /* object-fit: cover; */
+
 }
 /* End of styling for grid layout.  */
 
