@@ -1,5 +1,5 @@
 
-/* Remove the defauult HTML style assumptions. */
+/* Remove the default HTML style assumptions. */
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +23,9 @@ body{
 
 /* Define the style for the header  */
 header  {
-    /* 20 pixesl top& bottom, 35 pixels left & right */
+    /* 20 pixels top& bottom, 35 pixels left & right */
     padding: 20px  35px;     
+    margin-bottom: 5px;
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
@@ -37,7 +38,7 @@ header  {
 
 /* Define the styles for the footer that differ from the header  */
 footer  {
-    /* 20 pixesl top & bottom, 35 pixels left & right */
+    /* 20 pixels top & bottom, 35 pixels left & right */
     padding: 20px  35px;     
     background-color: var(--tertiary-color);
     display: flex;
@@ -91,7 +92,7 @@ header nav ul li a, footer nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size:  1.55vw;    /* vw = viewport width, here 1.55% of window width */
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 
 }
 
@@ -102,23 +103,31 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     text-shadow: none;
 }
 
+/* Overall padding for all "section" elements. */
+section {
+    padding: 60px;
+
+}
 
 /* Define the color for the section headings. */
 .section-title {
     color: var(--primary-color);
+    padding-top: 20px;
+    margin: 0 auto 35px auto;
 }
 
 .primary-border {
-    padding-top: 5px;
+    /* padding-top: 5px; */
     margin-left: 10px;
     margin-bottom: 10px;
-    border-top: 1px solid var(--primary-color);
+    border-top: 3px solid var(--primary-color);
 }
 
 
 .Projects-Accomplishments {
-    margin-top: 20px ;
+    /* margin-top: 20px ; */
     margin-left: 10px;
+
 }
 
 
