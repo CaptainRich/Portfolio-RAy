@@ -91,7 +91,7 @@ header nav ul, footer nav ul {
 header nav ul li a, footer nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size:  1.55vw;    /* vw = viewport width, here 1.55% of window width */
+    font-size:  25px;    
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 
 }
@@ -105,7 +105,7 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
 
 /* Overall padding for all "section" elements. */
 section {
-    padding: 60px;
+    margin: 30px;
 
 }
 
@@ -125,7 +125,6 @@ section {
 
 
 .Projects-Accomplishments {
-    /* margin-top: 20px ; */
     margin-left: 10px;
 
 }
@@ -154,6 +153,11 @@ section {
 .Education ul li {
     margin-left: 20px;
     list-style: none;
+}
+
+.Affiliations {
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .bottom {
@@ -198,6 +202,12 @@ section {
 }
 
 
+#size-1x1 {
+    width: 85%;          /* for images */
+} 
+ 
+
+
 .grid-item.grid-caesarii {
     grid-column: 1 ;
     grid-row: 1 ;
@@ -217,12 +227,11 @@ section {
     justify-content: center;
     /* object-fit: cover; */
 }
-/* .grid-item.grid-c2forum {
+/* .grid-item.grid-c2forum {       /* this project in the same grid as "c2reel" 
     grid-column: 1;
     grid-row: 3;
-    justify-content: center; */
-    /* object-fit: cover; */
-}
+    justify-content: center; 
+} */
 
 .grid-item.grid-Autotracker {
     grid-column: 2 ;
@@ -231,16 +240,6 @@ section {
     /* object-fit: cover; */
 }
 
-/*
-#size-2x2 {
-    width: 100%;
-}
-*/
-
-#size-1x1 {
-    width: 85%;
-} 
- 
 
 .grid-item.grid-tank {
     grid-column: 1;
@@ -297,69 +296,69 @@ section {
         font-size: 20px;
     }
 }
+
+
 /* Media query style for tablets and smaller than 768. */
 @media screen and (max-width: 768px) {
     
     .grid-container {
         grid-template-columns: 1fr;   /* create 1 column */
         grid-template-rows: 9fr;
+        width: 100%;
+        grid-column-gap: 0px;
+        display: grid;
     }
 
     .grid-item {
-        grid-column: 1;
+        width: 100%;
+        margin-top: 20px;
     }
 
     
-    .grid-item.grid-Autotracker {
-        grid-column: 1 / span 2;
-        grid-row: 1 / span 2;
-        object-fit: cover;
-    }   
-        
-    .grid-item.grid-LivingReal {
-        grid-column: 1 / span 2;
-        grid-row: 3 / span 2;
-        object-fit: cover;
-    } 
-
-    .grid-item.grid-c2reel {
+    .grid-item.grid-caesarii {
+        grid-row: 1;
         grid-column: 1;
-        grid-row: 5;
+    }
+    
+    .grid-item.grid-c2reel {
+        grid-row: 2;
+        grid-column: 1;
     }
 
     .grid-item.grid-c2forum {
-        grid-column: 2;
-        grid-row: 6;
-    }
-/* 
-    .grid-item.grid-horisean {
+        grid-row: 3;
         grid-column: 1;
-        grid-row: 4;
-    } */
-
-    .grid-item.grid-caesarii {
-        grid-column: 2;
-        grid-row: 7;
     }
+        
+    .grid-item.grid-LivingReal {
+        grid-row: 4;
+        grid-column: 1;
+    } 
+
+    .grid-item.grid-Autotracker {
+        grid-row: 5;
+        grid-column: 1;
+    }   
 
     .grid-item.grid-item.grid-tank {
+        grid-row: 6;
         grid-column: 1;
-        grid-row: 8;
-    }
-    
-    .grid-item.grid-RunBuddy {
-        grid-column: 2;
-        grid-row: 9;
-    }
-  
-    .grid-item.grid-weather {
-        grid-column: 1;
-        grid-row: 10;
     }
     
     .grid-item.grid-Stockman {
-        grid-column: 2;
-        grid-row: 11;
+        grid-row: 7;
+        grid-column: 1;
     }
+  
+    .grid-item.grid-weather {
+        grid-row: 8;
+        grid-column: 1;
+    }
+ 
+    .grid-item.grid-RunBuddy {
+        grid-row: 9;
+        grid-column: 1;
+    }
+
 
 }  /* End of Media query style for tablets and smaller than 768. */
