@@ -25,7 +25,7 @@ body{
 header  {
     /* 20 pixels top& bottom, 35 pixels left & right */
     padding: 20px  35px;     
-    margin-bottom: 5px;
+    margin-bottom: 65px;
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
@@ -102,12 +102,14 @@ header nav ul li a:hover, footer nav ul li a:hover {   /* change the button when
     border-radius: 15px;
     text-shadow: none;
 }
-
+s
 /* Overall padding for all "section" elements. */
 section {
     margin: 30px;
+    padding: 65px;
 
 }
+
 
 /* Define the color for the section headings. */
 .section-title {
