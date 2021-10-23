@@ -25,7 +25,7 @@ body{
 header  {
     /* 20 pixels top& bottom, 35 pixels left & right */
     padding: 20px  35px;     
-    margin-bottom: 65px;
+    /* margin-bottom: 65px; */
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
@@ -128,9 +128,13 @@ section {
 
 .Projects-Accomplishments {
     margin-left: 10px;
+    padding-top: 75px;
 
 }
 
+.Me {
+    padding-top: 75px;
+}
 
 .Me img {
     float: left;
@@ -275,6 +279,21 @@ section {
 
 /* Define the 'media query' styles.  */
 /* Media queries should always be last in the style sheet. */
+
+/* Media query style for smaller desktop screens and smaller than 1374, so that
+   the section titles are not behind the header. */
+@media screen and (max-width: 1374px) {
+
+    .Projects-Accomplishments {
+        padding-top: 160px; 
+    }
+
+    .Me {
+        padding-top: 160px;
+    }
+}
+
+
 /* Media query style for smaller desktop screens and smaller than 980. */
 @media screen and (max-width: 980px) {
     header {
